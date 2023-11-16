@@ -1,4 +1,4 @@
-// assistance from module gitlab
+// assistance from module resources
 
 const express = require('express');
 const fs = require('fs');
@@ -14,6 +14,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
 
 app.use(express.static('public'));
+
+
+// Homepage : GET Route
+app.get('/', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/index.html'))
+);
 
 // An example of route to 404 page
 app.listen(PORT, () =>
