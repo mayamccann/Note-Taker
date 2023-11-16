@@ -1,11 +1,14 @@
 // assistance from module resources
 
+// dependency added
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
 
+//env variable port created
 const PORT = process.env.PORT || 3001;
 
+//use of express
 const app = express();
 
 //Middleware parsing JSON and urlencoded form data
