@@ -4,6 +4,13 @@ const express = require('express');
 const app = express();
 
 
+// delete route
+app.delete( (req, res) => {
+    
+}
+)
+
+
 
 module.exports = (app) => {
 
