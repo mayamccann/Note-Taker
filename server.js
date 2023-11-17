@@ -24,7 +24,7 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-// An example of route to 404 page
+// An example of route to 404 page..starting the server
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
 );
