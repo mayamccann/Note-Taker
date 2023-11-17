@@ -28,3 +28,11 @@ app.get('/notes', (req, res) =>
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
 );
+
+// similar to fs.writeFile in other module + challenge
+fs.writeFile('db/db.json', JSON.stringify)
+if (err) {
+  console.error(err);
+  return res.status.json
+
+}
