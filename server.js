@@ -39,3 +39,7 @@ if (err) {
 
 //connecting with note.html
 const notes = JSON.parse(data);
+
+// deletion of note with id
+app.delete(":id", (req, res) => 
+)
