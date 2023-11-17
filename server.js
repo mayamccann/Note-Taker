@@ -42,8 +42,11 @@ const notes = JSON.parse(data);
 
 // deletion of note with id
 app.delete(":id", (req, res) => 
+
+//go back and eliminate error
 )
 
+ 
 // continued deletion: app.get('*')= run on a GET request for given URL
 //tells server what to do when get request at given route is called
 app.get('*', (req, res) => {
