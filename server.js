@@ -36,3 +36,6 @@ if (err) {
   return res.status.json
 
 }
+
+//connecting with note.html
+const notes = JSON.parse(data);
